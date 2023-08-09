@@ -1,0 +1,199 @@
+ /* Styles for the overlay */
+ .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+  }
+
+  /* Styles for the modal */
+  .modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #181818;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1001;
+    width: 60%;
+    height: 90%;
+    box-shadow: 0px 0px 5px 0px #E98D25
+    
+  }
+
+  #logo{
+    display: none;
+  }
+
+  /* Styles for the close button */
+  .btn-warning{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 103px;
+    margin-top: 52px;
+  }
+
+  .btn-close {
+    top: 10px;
+    right: 10px;
+    margin-right: -4px;
+    margin-top: -9px;
+    background-color: #E98D25;
+    --bs-btn-close-white-filter: unset;
+    --bs-btn-close-opacity: 0.8;
+  }
+
+  .btn-close:hover{
+    background-color: #E98D25;
+    --bs-btn-close-opacity: 0.2;
+  }
+
+  .btn-primary{
+      margin-left: 238px;
+      margin-top: 48px;
+      margin-bottom: 10px;
+  }
+  
+  #eyg-logo{
+    display: none;
+    width: 138px;
+    height: 120px;
+    margin-top: -126px;
+    margin-left: 137px;
+  }
+
+  /* Define the CSS animation */
+  @keyframes slideIn {
+          from { transform: translateY(-100%); opacity: 0; }
+          to { transform: translateY(0); opacity: 1; }
+      }
+  
+  @keyframes survey-title {
+      from { transform: translateY(-100%); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+      }
+  
+  @keyframes sub-title {
+      from { transform: translateY(-100%); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+      }  
+  
+  /* Apply the animation class */
+  .slide-in{
+          animation: slideIn 0.8s ease-in-out forwards;
+      }
+
+  /* .survey-title{
+          animation: survey-title 1.2s ease-in forwards;
+      }
+      
+  .sub-title{
+          animation: sub-title 1.2s ease-in forwards;
+      } */
+
+  body {
+          font-family: "Roboto", Sans-serif;
+      }
+      
+      .was-validated {
+          margin: 34px auto;
+          width: 80%;
+          max-width: 600px;
+          border: 1px solid #ffffff;
+          padding: 27px;
+          border-radius: 5px;
+          background-color: #f9f9f9;
+    
+      }
+      
+      h2 {
+          text-align: center;
+          color: white;
+      }
+      
+      p {
+          font-weight: bold;
+          font-size: 13px;
+          margin-top: 10px;
+      }
+      
+      label {
+          display: block;
+          margin-bottom: 10px;
+          margin-left: 8px;
+      }
+      
+      input[type="checkbox"] {
+          margin-right: 5px;
+      }
+      
+      button {
+          display: flex;
+          margin: 20px auto;
+          padding: 10px 20px;
+          background-color: #007bff;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+         
+      }
+      
+      button:hover {
+          background-color: #0056b3;
+      }
+
+      ::-webkit-scrollbar {
+          width: 8px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+          background-color: #007bff;
+          border-radius: 8px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+          background-color: #0056b3;
+      }
+
+      .sub-title{
+        color: white;
+        text-align: justify;
+        margin-left: 274px;
+      }
+
+      .form-control{
+        width: 60%;
+      }
+
+      .survey-title{
+        margin-right: 48px;
+      }
+
+      .mb-3-p{
+        margin-left: -20px;
+      }
+
+      .form-select, .form-check{
+        font-size: 14px;
+      }
+
+      .copyright-heading-title{
+        margin-left: 302px;
+        color: gray;
+      }
+
+      .check-boxes{
+        margin-left: 19px;
+      }
+
+      .mb-3-section1, .mb-3-section2{
+        margin-bottom: 25px;
+      }
